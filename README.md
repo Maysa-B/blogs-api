@@ -8,7 +8,7 @@ The project was developed at the end of Trybe's 24th block, in which I studied _
 
 In this project, I developed an **API Restfull** using **Sequelize** and **JWT**. We created a database that simulates a blog, where users, after logged (with JWT verifications), can read, search, delete and add posts.
 I produced Sequelize's migrations and models, even as the controller's and service's layers.
-After I finished the project, I decided to refactor my codes, splitting them to make them more organized and avoid reapeting codes.
+After I finished the project, I decided to refactor my codes, splitting them to make them more organized and avoid repeating codes.
 
 ----------
 
