@@ -1,4 +1,3 @@
-// arquivo fornecido pela trybe
 module.exports = {
   up: async (queryInterface, _Sequelize) => {
     await queryInterface.bulkInsert('users',

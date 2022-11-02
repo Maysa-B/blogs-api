@@ -1,7 +1,7 @@
 const findPostHelper = require('./findPostHelper');
 
-module.exports = async (userId) => {
-  const posts = await findPostHelper({ userId });
+module.exports = async () => {
+  const posts = await findPostHelper();
 
   return posts;
 };

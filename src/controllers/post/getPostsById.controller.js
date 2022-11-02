@@ -1,7 +1,7 @@
 const service = require('../../services/post/getPostById.service');
 
 module.exports = async (req, res) => {
-  const result = await service(req.decoded, req.params.id);
+  const result = await service(req.params.id);
 
   if (result) return res.status(200).json(result);
 
