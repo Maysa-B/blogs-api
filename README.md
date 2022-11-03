@@ -79,7 +79,7 @@ After I finished the project, I decided to refactor my codes, splitting them to 
 - **`/post/:id`**: to update a post that the user wrote.
 </details>
 
-> :zap:: Those are the endpoints that you will receive a token as a response. For all the others you need to send this token by the `Authentication` key on the header.
+> :zap:: Those are the endpoints that you will receive a token as a response. For all the others you need to send this token by the `Authorization` key on the header.
 
 ----------
 
