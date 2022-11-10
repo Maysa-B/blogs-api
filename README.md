@@ -18,7 +18,7 @@ After I finished the project, I decided to refactor my codes, splitting them to 
 
 - **`/login`**: to sign in with a user already registered. :zap:
 	- requisition body model:
-```
+```json
 {
   "email": "maybsalvalaio@gmail.com",
   "password": "123456"
@@ -27,7 +27,7 @@ After I finished the project, I decided to refactor my codes, splitting them to 
 
 - **`/user`**: to sign up a new user. :zap:
 	- requisition body model:
-```
+```json
 {
   "displayName": "Maysa-B",
   "email": "maybsalvalaio@gmail.com",
@@ -38,14 +38,14 @@ After I finished the project, I decided to refactor my codes, splitting them to 
 
 - **`/categories`**: to create a new category. 
 	- requisition body model:
-```
+```json
 {
   "name": "Typescript"
 }
 ```
 - **`/post`**: to create a new post.
 	- requisition body model:
-```
+```json
 {
   "title": "Latest updates, August 1st",
   "content": "The whole text for the blog post goes here in this key",
